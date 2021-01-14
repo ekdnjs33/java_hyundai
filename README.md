@@ -158,3 +158,24 @@
         객체 생성된 후 heap 메모리에 올라간 자신을 참조하는 키워드 (인스턴스 변수와 로컬 변수 이름이 같을 시 필수)
         예) this.name = name
            인스턴스 변수   로컬 변수
+
+### <Static>
+    가. static 변수 (static int count;)
+        - 한번만 생성
+        - 누적하는 용도
+        - 클래스명.count
+        - 자동초기화
+        - new 무관(인스턴스)
+
+    나. static 메서드 (public static int getCount(){})
+        - new 없이 사용 가능
+        - 목적: 편리, 싱글톤 객체(단 하나의 인스턴스만 생성하는 패턴)
+
+    * static 영역은 method area, 프로그램 실행시 한번만 만들게 돼
+    * static 변수 및 메서드는 반드시 클래스명을 지정해야 해
+  
+    다. API 중 대표적 static 메서드
+        - Integer.parseInt()
+        - String.valueOf()
+        - Arrays.sort()
+        - Arrays.toString()
