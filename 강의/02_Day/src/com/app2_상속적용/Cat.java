@@ -1,0 +1,26 @@
+package com.app2_상속적용;
+
+
+// Cat is a Pet 성립 : Pet의 구성요소를 Cat이 그냥 사용 가능 ( 부모생성자와 private은 상속불가)
+public class Cat extends Pet {
+
+	String color; //고유한 속성
+
+	public Cat() {
+	}
+	public Cat(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	public Cat(String name, int age, String color) {
+		this.name = name;
+		this.age = age;
+		this.color = color;
+	}
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+}
