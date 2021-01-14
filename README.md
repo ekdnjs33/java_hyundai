@@ -155,9 +155,9 @@
 
     객체 생성시 인스턴스 변수는 매번 생성된다. 이전 객체는 소멸, 중복 X
     this?
-        객체 생성된 후 heap 메모리에 올라간 자신을 참조하는 키워드 (인스턴스 변수와 로컬 변수 이름이 같을 시 필수)
-        this.name = name
-        인스턴스 변수   로컬 변수
+    객체 생성된 후 heap 메모리에 올라간 자신을 참조하는 키워드 (인스턴스 변수와 로컬 변수 이름이 같을 시 필수)
+    this.name = name
+    :인스턴스 변수  :로컬 변수
 
 ### <스태틱 static>
     가. static 변수 (static int count;)
@@ -209,7 +209,7 @@
         public String toString() {
             return "Dog [sex=" + sex + ", name=" + name + ", age=" + age + "]";
         }
-        
+
     모든 사용자 정의 클래스 Object의 toString 재정의하자.
     ==> 명시적인 메서드 호출없이 원하는 객체 정보를 출력할 수 있다.
 
