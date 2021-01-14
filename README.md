@@ -228,7 +228,7 @@
     나. 메서드 private
         ==> 핸들링 클래스 입장에서 효율적: 사용하지 않는 메서드를 hide ==> 복잡성 감소
 
-### <추상클래스
+### <추상클래스>
     추상메서드(abstract method)
       1. public abstract void 메서드명();
       2. 클래스는 반드시 abstract 로 지정
@@ -256,11 +256,11 @@
 
     가. 인터페이스 구성요소 ( 4가지 )
         1. 상수
-        ==> public static final 자동 지정
+          : public static final 자동 지정
         2. 추상 메서드 (*****)
-        ==> public abstract 자동 지정
+          : public abstract 자동 지정
         3. default 메서드
-        ==> 일반 클래스의 인스턴스 메서드 기능과 동일
+          : 일반 클래스의 인스턴스 메서드 기능과 동일
         4. static 메서드
 
     나. 추상 클래스와 인터페이스 비교
